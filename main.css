@@ -1,0 +1,296 @@
+body {
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #384047;
+}
+
+
+ form {
+  margin: 10px auto;
+  padding: 10px 30px;
+
+  
+  
+}
+
+
+h1 {
+  width: 50%;
+  color: white;
+  margin: 20px 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+.title {
+	margin-left: 90px;
+	width: 100%;
+}
+.left-area {
+	width: 55%;
+	float: left;
+	background: #11E5AB;
+    height: 100vh;
+    
+
+
+}
+.right-area {
+	background: url("lacerba.png");
+	height: 100vh;
+	background-size: cover;
+	
+	float: right;
+
+	width: 45%;
+}
+.r-btn {
+	margin-top: 710px;
+}
+.right-btn {
+	background: white;
+	padding: 10px 40px;
+	margin: 10px 40px;
+	padding-left: 30px;
+	margin-left: 310px;
+	
+	color: gray;
+
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.left-area input[type="text"],
+.left-area input[type="password"] {
+	border: 1px solid gray;
+	padding: 8px 10px;
+	width: 50%;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 5px 150px;
+}
+.submit-btn {
+	margin-top: 30px;
+}
+.btn {
+	background: #8B2CB8;
+	padding: 10px 40px;
+	margin: 30px 40px;
+	padding-left: 30px;
+	margin-left: 270px;
+	color: #fff;
+	
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+	text-decoration: none;
+
+}
+
+.one-half {
+	overflow: hidden;
+
+}
+.half1 {
+	width: 40%;
+	float: left;
+	overflow: hidden;
+	margin-right: -79px;
+
+}
+.half2 {
+	width: 40%;
+	overflow: hidden;
+	margin-left: -79px;
+}
+
+.lbtn {
+	margin-top: 30px;
+	margin-left: 70px;
+}
+.with {
+	background: white;
+	padding: 10px 40px;
+	margin: 10px 40px;
+	padding-left: 30px;
+	margin-left: 30px;
+	
+	color: gray;
+	
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.material-icons {
+    
+}
+
+.ricordami {
+	margin-left: 150px;
+	color: gray;
+}
+.submit input[type="submit"] {
+	background: #8B2CB8;
+	padding: 10px 40px;
+	margin: 30px 40px;
+	padding-left: 30px;
+	margin-left: 290px;
+	color: #fff;
+	
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+
+}
+.checkbox {
+	width: 40%;
+	color: white;
+	margin-left: 150px; 
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+header {
+   width: 467px;
+   margin-top: -20px;
+   margin-left: -30px;
+
+}	
+	header .title {
+		width: 100%;
+		background: #11E5AB;
+		color: white;
+		margin: 0 0;
+	}
+	h1 {
+  width: 100%;
+  color: white;
+  margin: 0;
+  margin-top: 0px;
+  text-align: left;
+
+}
+.media {
+	margin-top: 20px;
+	margin-left: 0px;
+}
+.madia {
+	margin-left: 0px;
+	 
+}
+
+	.left-area {
+	width: 100%;
+	float: bottom;
+	background: #D5DBDB;
+    height: 700px;
+    
+}
+
+.left-area input[type="text"],
+.left-area input[type="password"] {
+	border: 1px solid gray;
+	padding: 8px 10px;
+	width: 50%;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 5px 15px;
+}
+
+.one-half {
+	overflow: hidden;
+	display: block;
+
+}
+
+.half1 {
+	width: 50%;
+	float: bottom;
+	
+	
+
+}
+.half2 {
+	width: 50%;
+	float: bottom;
+	
+	
+}
+
+.right-area {
+	float: bottom;
+	overflow: hidden;
+	width: 100%;
+	display: none;
+}
+
+
+.checkbox {
+	width: 90%;
+	color: black;
+	margin-left: 10px; 
+}
+.btn {
+	background: #8B2CB8;
+	padding: 10px 40px;
+	margin: 30px 0px;
+	padding-left: 30px;
+	margin-left: 120px;
+	color: #fff;
+	
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+
+}
+
+.lp {
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.with {
+	background: white;
+	padding: 10px 40px;
+	margin: 10px 40px;
+	padding-left: 30px;
+	margin-left: -40px;
+	
+	color: gray;
+	
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+	text-decoration: none;
+	display: block;
+}
+
+.material-icons {
+	float: right;
+
+}
+
+.ricordami {
+	margin-left: 115px;
+	color: gray;
+}
+.submit input[type="submit"] {
+	background: #8B2CB8;
+	padding: 10px 40px;
+	margin: 30px 40px;
+	padding-left: 30px;
+	margin-left: 130px;
+	color: #fff;
+	
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+
+}
+	
+}
