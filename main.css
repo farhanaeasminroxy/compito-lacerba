@@ -43,13 +43,21 @@ h1 {
 
 	width: 45%;
 }
+.r-text {
+	margin-top: 692px;
+	margin-left: 280px;
+}
+.r-text p {
+	color: white;
+}
 .r-btn {
-	margin-top: 710px;
+	margin-top: 5px;
+
 }
 .right-btn {
 	background: white;
-	padding: 10px 40px;
-	margin: 10px 40px;
+	padding: 6px 40px;
+	margin: 5px 40px;
 	padding-left: 30px;
 	margin-left: 310px;
 	
@@ -61,10 +69,18 @@ h1 {
 	text-decoration: none;
 }
 
+.icon {
+	position: relative;
+}
+.icon .material-icons {
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 10px;
+}
 .left-area input[type="text"],
 .left-area input[type="password"] {
 	border: 1px solid gray;
-	padding: 8px 10px;
+	padding: 8px 27px;
 	width: 50%;
 	box-sizing: border-box;
 	border-radius: 10px;
@@ -72,42 +88,65 @@ h1 {
 }
 .submit-btn {
 	margin-top: 30px;
-}
-.btn {
 	background: #8B2CB8;
 	padding: 10px 40px;
 	margin: 30px 40px;
 	padding-left: 30px;
-	margin-left: 270px;
+	margin-left: 150px;
 	color: #fff;
-	
+	width: 330px;
 	border: 0;
 	transition: background .3s;
 	border-radius: 10px;
+	text-align: center;
+}
+
+.submit-btn a {
+	color: white;
+	
 	text-decoration: none;
 
 }
+.text {
+	color: white;
+	margin-left: 150px;
+}
+
 
 .one-half {
-	overflow: hidden;
-
+	
+    
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 .half1 {
 	width: 40%;
-	float: left;
-	overflow: hidden;
+	flex-grow: 1; 
+	
 	margin-right: -79px;
 
 }
+.half1 input[type="text"],
+.half1 input[type="password"] {
+	width: 31%
+} 
 .half2 {
 	width: 40%;
-	overflow: hidden;
-	margin-left: -79px;
+	
+	flex-grow: 1;
+	margin-left: -289px;
 }
+.half2 input[type="text"],
+.half2 input[type="password"] {
+	width: 31%;
+} 
 
 .lbtn {
 	margin-top: 30px;
-	margin-left: 70px;
+	margin-left: 120px;
+
 }
 .with {
 	background: white;
@@ -125,7 +164,8 @@ h1 {
 }
 
 .material-icons {
-    
+    position: absolute;
+    margin-bottom: 10px;
 }
 
 .ricordami {
@@ -137,13 +177,19 @@ h1 {
 	padding: 10px 40px;
 	margin: 30px 40px;
 	padding-left: 30px;
-	margin-left: 290px;
+	margin-left: 105px;
 	color: #fff;
 	
 	border: 0;
 	transition: background .3s;
 	border-radius: 10px;
 
+}
+.submit li {
+	display: inline-block;
+}
+.submit li p {
+	color: white;
 }
 .checkbox {
 	width: 40%;
@@ -156,7 +202,7 @@ h1 {
 @media only screen and (max-width: 767px) {
 
 header {
-   width: 467px;
+   width: 447px;
    margin-top: -20px;
    margin-left: -30px;
 
@@ -166,14 +212,16 @@ header {
 		background: #11E5AB;
 		color: white;
 		margin: 0 0;
+		padding: 10px;
 	}
 	h1 {
-  width: 100%;
+  width: 90%;
   color: white;
-  margin: 0;
+  margin: 0 30px;
+  margin-right: 30px;
   margin-top: 0px;
-  text-align: left;
-
+  text-align: center;
+  
 }
 .media {
 	margin-top: 20px;
@@ -187,37 +235,47 @@ header {
 	.left-area {
 	width: 100%;
 	float: bottom;
-	background: #D5DBDB;
-    height: 700px;
+	background: #F1F4F1;
+    height: 830px;
     
 }
 
+
+.icon {
+	position: relative;
+}
+.icon .material-icons {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 10px;
+}
 .left-area input[type="text"],
 .left-area input[type="password"] {
 	border: 1px solid gray;
-	padding: 8px 10px;
-	width: 50%;
+	padding: 8px 30px;
+	width: 80%;
 	box-sizing: border-box;
 	border-radius: 10px;
-	margin: 5px 15px;
+	margin: 5px 40px;
+    
 }
 
 .one-half {
 	overflow: hidden;
-	display: block;
+	flex-direction: column;
 
 }
 
 .half1 {
-	width: 50%;
-	float: bottom;
-	
+	width: 100%;
+	float: none;
+	margin-left: -80px;
 	
 
 }
 .half2 {
-	width: 50%;
-	float: bottom;
+	width: 100%;
+	margin-left: 0px;
 	
 	
 }
@@ -232,27 +290,49 @@ header {
 
 .checkbox {
 	width: 90%;
-	color: black;
-	margin-left: 10px; 
+	color: gray;
+	margin-left: 30px; 
 }
-.btn {
+
+.text {
+	color: gray;
+	margin-left: 90px;
+}
+
+.submit li p {
+	color: gray;
+	margin-left: 40px;
+}
+
+
+.submit-btn {
 	background: #8B2CB8;
 	padding: 10px 40px;
 	margin: 30px 0px;
 	padding-left: 30px;
-	margin-left: 120px;
-	color: #fff;
-	
+	margin-left: 20px;
+	color: white;
+	width: 70%;
 	border: 0;
 	transition: background .3s;
 	border-radius: 10px;
+    text-align: center;
+}
+.submit-btn a {
+	color: white;
+	
+	text-decoration: none;
 
 }
 
 .lp {
 	margin-top: 20px;
-	margin-left: 100px;
+	margin-left: 0px;
 }
+.lp input[type="text"],
+.lp input[type="password"] {
+	width: 90%;
+} 
 
 .with {
 	background: white;
@@ -276,7 +356,7 @@ header {
 }
 
 .ricordami {
-	margin-left: 115px;
+	margin-left: 40px;
 	color: gray;
 }
 .submit input[type="submit"] {
@@ -284,9 +364,9 @@ header {
 	padding: 10px 40px;
 	margin: 30px 40px;
 	padding-left: 30px;
-	margin-left: 130px;
+	margin-left: 5px;
 	color: #fff;
-	
+	width: 355px;
 	border: 0;
 	transition: background .3s;
 	border-radius: 10px;
