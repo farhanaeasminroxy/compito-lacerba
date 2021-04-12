@@ -85,6 +85,7 @@ h1 {
 	box-sizing: border-box;
 	border-radius: 10px;
 	margin: 5px 150px;
+    
 }
 .submit-btn {
 	margin-top: 30px;
@@ -114,33 +115,35 @@ h1 {
 
 
 .one-half {
-	
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
     
-    display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
 }
 .half1 {
-	width: 40%;
-	flex-grow: 1; 
+	position: relative;
+    width: 40%;
+    flex-grow: 1;
 	
 	margin-right: -79px;
 
 }
 .half1 input[type="text"],
 .half1 input[type="password"] {
-	width: 31%
+	width: 31%;
+    
 } 
 .half2 {
-	width: 40%;
-	
-	flex-grow: 1;
+	position: relative;
+    width: 40%;
+    flex-grow: 1;
 	margin-left: -289px;
 }
 .half2 input[type="text"],
 .half2 input[type="password"] {
 	width: 31%;
+	
 } 
 
 .lbtn {
@@ -269,7 +272,7 @@ header {
 .half1 {
 	width: 100%;
 	float: none;
-	margin-left: -80px;
+	margin-left: 0px;
 	
 
 }
